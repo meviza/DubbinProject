@@ -24,13 +24,8 @@ export function LoginTemplate({ locale }: LoginTemplateProps) {
           <p className="mt-6 text-base leading-8 text-white/[0.62]">
             {copy.login.body}
           </p>
-          <div className="mt-8 space-y-3">
-            <div className="rounded-3xl border border-white/[0.08] bg-white/[0.05] p-5 text-sm leading-7 text-white/[0.62]">
-              Public surface for investor, client, and member confidence.
-            </div>
-            <div className="rounded-3xl border border-white/[0.08] bg-white/[0.05] p-5 text-sm leading-7 text-white/[0.62]">
-              Real authentication should live only in the private repository and deployment stack.
-            </div>
+          <div className="mt-8 rounded-3xl border border-white/[0.08] bg-white/[0.05] p-5 text-sm leading-7 text-white/[0.58]">
+            Public preview only. Real authentication belongs in the private stack.
           </div>
         </div>
 

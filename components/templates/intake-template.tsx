@@ -27,13 +27,8 @@ export function IntakeTemplate({ locale, mode }: IntakeTemplateProps) {
           <p className="mt-6 text-base leading-8 text-white/[0.62]">
             {content.body}
           </p>
-          <div className="mt-8 space-y-3">
-            <div className="rounded-3xl border border-white/[0.08] bg-white/[0.05] p-5 text-sm leading-7 text-white/[0.62]">
-              Public-safe lead capture keeps the sales surface live while private communication flows stay hidden.
-            </div>
-            <div className="rounded-3xl border border-white/[0.08] bg-white/[0.05] p-5 text-sm leading-7 text-white/[0.62]">
-              Connect a Tally, Typeform, Formspark, or custom intake URL later without exposing a personal mailbox.
-            </div>
+          <div className="mt-8 rounded-3xl border border-white/[0.08] bg-white/[0.05] p-5 text-sm leading-7 text-white/[0.58]">
+            The public page collects the lead. Sensitive handling stays off this repository.
           </div>
         </div>
 

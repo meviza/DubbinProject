@@ -117,60 +117,60 @@ const copy: Record<Locale, LocaleCopy> = {
       securePreview: "Secure preview",
     },
     nav: [
-      { href: "#capabilities", label: "Capabilities" },
-      { href: "#markets", label: "Market Gaps" },
-      { href: "#product", label: "Product" },
+      { href: "#capabilities", label: "Product" },
+      { href: "#markets", label: "Markets" },
+      { href: "#product", label: "Access" },
     ],
     landing: {
       kicker: "Premium Legal Intelligence",
       title: "A legal AI operating system built for",
       accent: "cross-border execution",
       body:
-        "Dubbin is positioned as a premium legal command layer for review, drafting, fundraising readiness, precedent building, and evidence-linked work across multiple jurisdictions.",
+        "Quiet, fast, and built for high-trust legal work across jurisdictions.",
       primaryCta: "Open Dashboard Preview",
       secondaryCta: "Enter Secure Login",
       trustNote:
-        "Public repo stays presentation-safe. Sensitive AI, corpus, and security controls remain private.",
+        "Public surface only. AI, data, and security controls stay private.",
       metrics: [
         {
           label: "Review throughput",
           value: "4.2 min",
-          helper: "structured issue extraction with source-linked follow-up",
+          helper: "source-linked review",
         },
         {
           label: "Jurisdiction readiness",
           value: "12 packs",
-          helper: "EU, US, APAC, MENA expansion architecture",
+          helper: "global rollout",
         },
         {
-          label: "Lead conversion surface",
+          label: "Access paths",
           value: "3 paths",
-          helper: "login, demo request, custom intake",
+          helper: "login, demo, intake",
         },
       ],
-      capabilitiesTitle: "Premium product surface",
+      capabilitiesTitle: "Product surface",
       capabilitiesBody:
-        "The public-facing site sells a serious platform: faster than manual review, safer than generic chat products, and more realistic for international legal operations.",
+        "Built to feel controlled, premium, and credible at first glance.",
       capabilities: [
         {
-          title: "Contract review and redline orchestration",
+          title: "Review",
           body:
-            "Clause-level risk extraction, asymmetric obligation detection, remediation suggestions, and source-linked escalation packs.",
+            "Clause-level findings with source-linked next actions.",
         },
         {
-          title: "Academic and research-grade drafting support",
+          title: "Draft",
           body:
-            "Support for policy notes, legal memos, board materials, and source-dense drafting that reads like expert work instead of AI filler.",
+            "Clean drafting for memos, notes, and board-facing output.",
         },
         {
-          title: "Fundraising and disclosure readiness",
+          title: "Raise",
           body:
-            "Pre-check founder decks, information forms, diligence packets, and investor-facing disclosures before platform or counsel review.",
+            "A tighter surface for fundraising and disclosure prep.",
         },
       ],
-      marketTitle: "Market gaps with real demand",
+      marketTitle: "Market focus",
       marketBody:
-        "The strongest wedge is not one country alone. The platform should open where regulatory density is high, AI adoption is rising, and mid-market legal teams remain underserved.",
+        "Launch where regulation is dense, trust matters, and mid-market teams are underserved.",
       marketGaps: [
         {
           region: "Europe",
@@ -193,21 +193,20 @@ const copy: Record<Locale, LocaleCopy> = {
           value: "Structured review, negotiation prep, export-sensitive documentation.",
         },
       ],
-      productTitle: "Product architecture for scale",
-      productBody:
-        "Public UI is structured as a premium front door. Private systems can power deeper intelligence later without redoing the information architecture.",
+      productTitle: "Private command layer",
+      productBody: "A premium front door with room for deeper private systems.",
       productPillars: [
-        "Clean route architecture with static export support",
-        "Atomic UI primitives, reusable sections, and route-level templates",
-        "Public-safe lead capture with private endpoint handoff",
-        "Multi-language ready content model",
+        "Review",
+        "Draft",
+        "Raise",
+        "Research",
       ],
     },
     login: {
       kicker: "Secure Access",
-      title: "Member login built for enterprise trust",
+      title: "Member login with a premium front door",
       body:
-        "This public login is a premium access surface. Real authentication stays in the private application, while the public site demonstrates the member experience and conversion path.",
+        "A quiet access surface for clients, counsel, and pilot users.",
       emailLabel: "Work email",
       roleLabel: "Primary use case",
       rolePlaceholder: "Founding team, legal operations, law firm, investor relations",
@@ -216,16 +215,16 @@ const copy: Record<Locale, LocaleCopy> = {
     },
     demo: {
       kicker: "Private Demo",
-      title: "Request a guided product walkthrough",
+      title: "Request a private walkthrough",
       body:
-        "Capture qualified leads for sales, pilots, and investor demos without exposing internal operations or private contact channels.",
+        "A short path into a serious product demo.",
       cta: "Save draft and open secure demo intake",
     },
     request: {
       kicker: "Custom Intake",
-      title: "Create a tailored legal AI request",
+      title: "Create a tailored request",
       body:
-        "Use this for pilot programs, enterprise onboarding, cross-border expansion, or a niche workflow that needs custom playbooks and data.",
+        "Use this for pilots, enterprise onboarding, or custom workflows.",
       cta: "Save request and open secure intake",
     },
     intake: {
@@ -247,43 +246,43 @@ const copy: Record<Locale, LocaleCopy> = {
     },
     dashboard: {
       kicker: "Member Workspace",
-      title: "A dashboard that sells premium capability",
+      title: "A dashboard that feels expensive",
       body:
-        "This preview is designed to feel denser, calmer, and more executive than generic admin panels. It positions Dubbin as a serious operating system, not a simple chatbot.",
+        "Less noise. More signal. Built to look like a serious operating layer.",
       metrics: [
         {
           label: "Multi-region workspaces",
           value: "24",
-          helper: "parallel matters across EU, US, GCC, and APAC",
+          helper: "parallel matters",
         },
         {
           label: "Evidence-linked outputs",
           value: "96%",
-          helper: "board-ready summaries, clause rationale, source chains",
+          helper: "decision-ready outputs",
         },
         {
           label: "Draft acceleration",
           value: "3.4x",
-          helper: "contracts, memos, fundraising, and research artifacts",
+          helper: "faster legal production",
         },
       ],
       modules: [
         {
           title: "Academic drafting mode",
           body:
-            "Build legal memos, policy briefs, and source-dense internal writing with structured references and clear reasoning layers.",
+            "Research-grade output with clean reasoning layers.",
           status: "Research-grade",
         },
         {
           title: "Precedent and case pool",
           body:
-            "Position future private systems around rich precedent capture, reusable playbooks, and evidence clusters by jurisdiction.",
+            "Structured precedent memory for repeatable work.",
           status: "Precedent-ready",
         },
         {
           title: "Global jurisdiction packs",
           body:
-            "Stage expansion for Europe, the United States, Australia, China, India, Japan, and Korea with local language and workflow overlays.",
+            "Localized packs for expansion by market.",
           status: "Expansion map",
         },
       ],
@@ -316,60 +315,60 @@ const copy: Record<Locale, LocaleCopy> = {
       securePreview: "Guvenli on izleme",
     },
     nav: [
-      { href: "#capabilities", label: "Yetenekler" },
-      { href: "#markets", label: "Pazar Bosluklari" },
-      { href: "#product", label: "Urun" },
+      { href: "#capabilities", label: "Urun" },
+      { href: "#markets", label: "Pazar" },
+      { href: "#product", label: "Erisim" },
     ],
     landing: {
       kicker: "Premium Hukuk Zekasi",
       title: "Sinirlar arasi operasyon icin kurulan",
       accent: "hukuk AI isletim sistemi",
       body:
-        "Dubbin; sozlesme inceleme, taslak hazirlama, kitle fonlama hazirligi, emsal olusturma ve kaynak baglantili hukuk calismasi icin premium bir komut katmani olarak konumlanir.",
+        "Sakin, hizli ve yuksek guven gerektiren hukuk isleri icin kuruldu.",
       primaryCta: "Panel On Izlemesini Ac",
       secondaryCta: "Guvenli Giris Ekranina Git",
       trustNote:
-        "Acik repo sadece sunum katmanini icerir. Hassas AI, veri havuzu ve guvenlik kontrolleri ozel repoda kalir.",
+        "Bu sadece public yuzey. AI, veri ve guvenlik ozel repoda kalir.",
       metrics: [
         {
           label: "Inceleme hizi",
           value: "4.2 dk",
-          helper: "yapisal bulgu cikarimi ve kaynak baglantili aksiyon",
+          helper: "kaynak bagli inceleme",
         },
         {
           label: "Yetki alani hazirligi",
           value: "12 paket",
-          helper: "AB, ABD, APAC ve MENA acilim mimarisi",
+          helper: "global acilim",
         },
         {
-          label: "Lead donusum yolu",
+          label: "Erisim yolu",
           value: "3 akis",
-          helper: "giris, demo talebi ve ozel talep toplama",
+          helper: "giris, demo, intake",
         },
       ],
-      capabilitiesTitle: "Premium urun yuzeyi",
+      capabilitiesTitle: "Urun yuzeyi",
       capabilitiesBody:
-        "Kamuya acik site ciddi bir platform satar: manuel incelemeden hizli, genel amacli sohbet araclarindan guvenli ve uluslararasi hukuk operasyonlari icin daha gercekci.",
+        "Ilk bakista kontrollu, premium ve guvenilir hissettirmek icin kuruldu.",
       capabilities: [
         {
-          title: "Sozlesme inceleme ve redline orkestrasyonu",
+          title: "Review",
           body:
-            "Madde seviyesinde risk cikarimi, dengesiz yukumluluk tespiti, duzeltme onerileri ve kaynak baglantili ust inceleme paketleri.",
+            "Madde bazli bulgu ve kaynak bagli aksiyonlar.",
         },
         {
-          title: "Akademik ve arastirma duzeyi taslak desteği",
+          title: "Draft",
           body:
-            "Politika notlari, hukuk memolari, yonetim kurulu materyalleri ve kaynak yogun metinler icin profesyonel kalite.",
+            "Memo, not ve yonetim seviyesi ciktilar icin temiz taslaklar.",
         },
         {
-          title: "Fonlama ve aciklama hazirligi",
+          title: "Raise",
           body:
-            "Kurucu sunumlari, bilgi formlari, diligence paketleri ve yatirimciya donuk aciklamalari platform veya avukat incelemesinden once kontrol et.",
+            "Fonlama ve aciklama hazirligi icin daha temiz bir yuzey.",
         },
       ],
-      marketTitle: "Gercek ihtiyac olan pazar bosluklari",
+      marketTitle: "Pazar odagi",
       marketBody:
-        "En guclu giris noktasi tek bir ulke degil. Regulator yogunlugunun yuksek, AI benimsemesinin hizlandigi ve orta segment hukuk ekiplerinin zayif hizmet aldigi alanlar hedeflenmeli.",
+        "Regulasyonun yogun, guvenin kritik ve orta segmentin bos oldugu pazarlar hedefte.",
       marketGaps: [
         {
           region: "Avrupa",
@@ -392,21 +391,20 @@ const copy: Record<Locale, LocaleCopy> = {
           value: "Yapisal inceleme, pazarlik hazirligi ve ihracata duyarli dokumantasyon.",
         },
       ],
-      productTitle: "Olceklenebilir urun mimarisi",
-      productBody:
-        "Kamuya acik UI premium bir on kapi olarak kurgulandi. Ozel sistemler daha derin zekayi ileride bu mimariyi bozmadan tasiyabilir.",
+      productTitle: "Ozel komut katmani",
+      productBody: "Premium bir on kapi. Derin sistemler arkada kalabilir.",
       productPillars: [
-        "Statik export destekli temiz route mimarisi",
-        "Atomic UI primitive'leri ve tekrar kullanilan bolumler",
-        "Public-safe talep toplama ve ozel endpoint aktarimi",
-        "Cok dilli icerik modeli",
+        "Review",
+        "Draft",
+        "Raise",
+        "Research",
       ],
     },
     login: {
       kicker: "Guvenli Erisim",
-      title: "Kurumsal guven hissi veren giris yuzeyi",
+      title: "Premium bir on kapi hissi veren giris",
       body:
-        "Bu acik giris ekrani premium erisim katmanidir. Gercek kimlik dogrulama ozel uygulamada kalir; public site ise uye deneyimi ve donusum yolunu gosterir.",
+        "Musteri, avukat ve pilot kullanicilar icin sakin bir erisim yuzeyi.",
       emailLabel: "Is e-postasi",
       roleLabel: "Ana kullanim alani",
       rolePlaceholder: "Kurucu ekip, hukuk operasyonu, hukuk burosu, yatirimci iliskileri",
@@ -415,16 +413,16 @@ const copy: Record<Locale, LocaleCopy> = {
     },
     demo: {
       kicker: "Ozel Demo",
-      title: "Yonlendirmeli urun gosterimi talep et",
+      title: "Ozel urun gosterimi talep et",
       body:
-        "Satis, pilot kullanim ve yatirimci demolari icin nitelikli talepleri toplarken ozel operasyonlari ve iletisim kanallarini gizli tut.",
+        "Kisa ve profesyonel bir demo akisina gir.",
       cta: "Taslagi kaydet ve guvenli demo akisina git",
     },
     request: {
       kicker: "Ozel Talep",
-      title: "Ihtiyacina ozel hukuk AI talebi olustur",
+      title: "Ihtiyacina ozel talep olustur",
       body:
-        "Pilot programlar, kurumsal kurulum, ulke acilimi veya ozel playbook gerektiren dikey kullanimlar icin bu akisi kullan.",
+        "Pilot, kurumsal kurulum veya ozel workflow icin kullan.",
       cta: "Talebi kaydet ve guvenli akisa git",
     },
     intake: {
@@ -446,43 +444,43 @@ const copy: Record<Locale, LocaleCopy> = {
     },
     dashboard: {
       kicker: "Uye Calisma Alani",
-      title: "Premium yetenegi satan bir panel",
+      title: "Pahali hissettiren bir panel",
       body:
-        "Bu on izleme; genel admin panellerinden daha sakin, daha yogun ve daha yonetici seviyesi his vermek icin tasarlandi. Dubbin'i basit bir sohbet araci degil, gercek bir isletim sistemi gibi konumlar.",
+        "Daha az gurultu, daha fazla sinyal. Gercek bir operasyon katmani gibi gorunur.",
       metrics: [
         {
           label: "Cok bolgeli calisma alanlari",
           value: "24",
-          helper: "AB, ABD, Korfez ve APAC uzerinde paralel isler",
+          helper: "paralel matter akisi",
         },
         {
           label: "Kanita bagli ciktilar",
           value: "96%",
-          helper: "yonetim seviyesinde ozet, madde mantigi ve kaynak zinciri",
+          helper: "karar hazir ciktilar",
         },
         {
           label: "Taslak hizlanmasi",
           value: "3.4x",
-          helper: "sozlesme, memo, fonlama ve arastirma ciktilari",
+          helper: "daha hizli hukuk uretimi",
         },
       ],
       modules: [
         {
           title: "Akademik taslak modu",
           body:
-            "Yapisal referans ve acik akil yurutme katmanlari ile hukuk memolari, politika notlari ve kaynak yogun ic yazilar hazirla.",
+            "Arastirma duzeyi ciktilar ve temiz akil yurutme katmanlari.",
           status: "Arastirma seviyesi",
         },
         {
           title: "Emsal ve dava havuzu",
           body:
-            "Ozel sistemlerde zengin emsal toplama, tekrar kullanilan playbook'lar ve ulke bazli kanit kumelemesi icin guclu zemin kur.",
+            "Tekrar eden isler icin duzenli emsal hafizasi.",
           status: "Emsal hazir",
         },
         {
           title: "Global ulke paketleri",
           body:
-            "Avrupa, Amerika, Avustralya, Cin, Hindistan, Japonya ve Kore icin dil ve workflow katmanlariyla acilim planla.",
+            "Pazar bazli lokal paketler ve dil katmanlari.",
           status: "Acilim haritasi",
         },
       ],
