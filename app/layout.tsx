@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Instrument_Sans, Space_Grotesk } from "next/font/google";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 
 import "./globals.css";
 
-const bodyFont = Instrument_Sans({
+const bodyFont = Manrope({
   subsets: ["latin"],
   variable: "--font-body",
 });
 
-const headingFont = Space_Grotesk({
+const headingFont = Cormorant_Garamond({
   subsets: ["latin"],
   variable: "--font-heading",
+  weight: ["500", "600", "700"],
 });
 
 export const metadata: Metadata = {
